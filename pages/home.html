@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="../css/style.css" />
 
     <!-- Lib Animation CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <!-- Favicon -->
     <link
@@ -79,7 +80,7 @@
 
       <div
         class="container titlePadding"
-        data-aos="fade-up"
+        data-aos="fade-down"
         data-aos-duration="1500"
       >
         <p class="h5" id="lauchComing">LANÇAMENTO A CAMINHO</p>
@@ -100,7 +101,11 @@
     </div>
 
     <div class="container-fluid container00 container02">
-      <div class="container titlePadding">
+      <div
+        class="container titlePadding"
+        data-aos="fade-right"
+        data-aos-duration="1500"
+      >
         <p class="h5" id="lauchComing">MISSÃO CONCLUÍDA</p>
 
         <p class="h1 shortTitle">MISSÃO EQUIPE-2 RETORNOU PARA A TERRA</p>
@@ -114,7 +119,7 @@
     <div class="container-fluid container00 container03">
       <div
         class="container titlePadding"
-        data-aos="fade-down"
+        data-aos="fade-up-right"
         data-aos-duration="1500"
       >
         <p class="h5" id="lauchComing">MISSÃO CONCLUÍDA</p>
@@ -164,5 +169,9 @@
     ></script>
 
     <!-- Lib Animation Script -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
