@@ -58,6 +58,14 @@
 
 // Media Query
 
+@media (max-width: 449px) {
+  .downloadDesc {
+    button {
+      margin: 10px 0px;
+    }
+  }
+}
+
 @media (max-width: 405px) {
   .logoPc {
     width: 180px;
